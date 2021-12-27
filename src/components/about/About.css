@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pushster&display=swap");
+.container-about {
+  background-color: #042c54;
+}
+.container-about .about-row {
+  padding: 3.5rem;
+  align-items: baseline;
+}
+.container-about .about-row p {
+  margin: 0;
+  line-height: 2rem;
+}
+.container-about .about-row .heading {
+  font-size: 2rem;
+}
+.container-about .about-row .subtext-1 {
+  text-align: end;
+}
+.container-about .about-row .subheading {
+  line-height: 3rem;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=whatGPT3.css.map */

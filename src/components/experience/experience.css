@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pushster&display=swap");
+.containter-experience {
+  margin: 10rem 0;
+}
+.containter-experience .row-experience {
+  align-items: baseline;
+}
+.containter-experience .row-experience .text-container {
+  margin-left: 2rem;
+}
+.containter-experience .row-experience .text-container-2 {
+  margin-left: 4.5rem;
+}
+.containter-experience .row-experience .subheading {
+  font-size: 1.25rem;
+  margin-bottom: 2.15rem;
+}
+.containter-experience .row-experience .heading {
+  font-size: 2rem;
+}
+.containter-experience .row-experience .text {
+  margin-bottom: 2rem;
+}
+.containter-experience .row-experience .subtext-1 {
+  margin-top: 2rem;
+}/*# sourceMappingURL=experience.css.map */

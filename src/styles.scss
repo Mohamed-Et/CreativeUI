@@ -1,0 +1,9 @@
+//! we dont add the mixins and variables because we can't use them
+//! as classes inside jsx files, they need to be imported inside scss files so no need to import them here
+//! buttons and typography on the other hands can be used as classes
+
+@use './sass/partials/animations';
+@use './sass/partials/buttons';
+@use './sass/partials/typography';
+//* @ how to customise bootstrap later
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

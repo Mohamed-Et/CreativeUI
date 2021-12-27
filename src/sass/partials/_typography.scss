@@ -1,0 +1,36 @@
+@use '../partials/variables' as *;
+
+.word {
+  color: $btn-color-dark;
+}
+//! Heading
+.heading {
+  background: $gradient-text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+.heading-2 {
+  color: black;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+//! subheading
+.subheading {
+  background: url(../../../public/img/about/Rectangle.png) top left no-repeat;
+  font-weight: 700;
+  color: white;
+  padding-top: 0.5rem;
+}
+
+//!text
+.text {
+  color: $color-text;
+}
+//!subtexts
+.subtext-1 {
+  color: $color-subtext;
+}
+.subtext-2 {
+  color: $color-subtext-2;
+}

@@ -1,0 +1,25 @@
+@use './variables' as *;
+
+.btnc-primary {
+  background-color: $btn-color-dark;
+  color: white;
+  border: solid $btn-color-dark;
+  padding: 0.5rem 1.75rem;
+  border-radius: 0.25rem;
+}
+.btnc-secondary {
+  background-color: $btn-color-light;
+  color: white;
+  border: solid $btn-color-light;
+  padding: 1rem 1.75rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+.btnc-dark {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 1rem 2.45rem;
+  font-weight: 700;
+}

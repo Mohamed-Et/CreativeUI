@@ -1,0 +1,14 @@
+.brand-container {
+  margin: 6rem 0;
+}
+.brand-container .row {
+  justify-content: center;
+}
+.brand-container .row .img-container {
+  width: auto;
+  margin: 0 0.75rem;
+}
+.brand-container .row .img-container img {
+  height: 1.5rem;
+  width: 100%;
+}/*# sourceMappingURL=brand.css.map */

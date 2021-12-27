@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pushster&display=swap");
+.row-cta {
+  margin: 8rem 0;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  border-radius: 1rem;
+  padding: 3.5rem 2.5rem;
+  display: flex;
+}
+.row-cta p {
+  margin: 0;
+}
+.row-cta .first-col .sub {
+  font-size: 0.95rem;
+  letter-spacing: 3px;
+}
+.row-cta .second-col {
+  text-align: end;
+}/*# sourceMappingURL=cta.css.map */

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pushster&display=swap");
+.container-footer {
+  padding-top: 9rem;
+  background-color: #031b34;
+}
+.container-footer p {
+  margin: 0;
+}
+.container-footer .text-container {
+  margin-bottom: 9rem;
+  text-align: center;
+}
+.container-footer .text-container .heading {
+  font-size: 3.875rem;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+.container-footer .text-container .btnc-outline {
+  background-color: #031b34;
+  border: 2px solid white;
+  color: white;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.container-footer .text-container .btnc-outline:hover {
+  transform: scale(1.1);
+}
+.container-footer .parent-row {
+  align-items: baseline;
+  justify-content: space-around;
+  color: white;
+  padding: 0 9rem;
+}
+.container-footer .parent-row .left-col .logo {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 1.65rem;
+}
+.container-footer .parent-row .left-col .subheading-2 {
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+.container-footer .parent-row .right-col .child-row .title {
+  font-weight: 700;
+}
+.container-footer .parent-row .right-col .child-row .text-2 {
+  font-size: 0.95rem;
+  margin: 2rem 0;
+}
+.container-footer .footer {
+  text-align: center;
+  color: white;
+  padding: 4rem 0 2rem 0;
+}/*# sourceMappingURL=footer.css.map */

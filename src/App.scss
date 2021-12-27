@@ -1,0 +1,30 @@
+@use './sass/partials/mixins' as *;
+@use './sass/partials/variables' as *;
+@use './styles.scss' as *;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth; /*changes slightly the effect of scrolling*/
+  font-family: $font-family;
+}
+
+body {
+  background: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.all-container {
+  @include gradient-bgc;
+  padding: 2rem 7.5rem;
+  @include media-breakpoint-down(lg) {
+    padding: 2rem 4rem;
+  }
+}
+.gradient-bg-reverse {
+  @include gradient-bg-reverse;
+}

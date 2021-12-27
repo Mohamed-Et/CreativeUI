@@ -1,0 +1,59 @@
+@use '../../sass/partials/variables' as *;
+
+.container-projects {
+  margin: 8rem 0 5rem 0;
+  p {
+    margin: 0;
+    color: white;
+  }
+  .heading {
+    font-size: 3.875rem;
+    line-height: 4rem;
+    width: 60%;
+    margin-bottom: 4rem;
+  }
+  .row-1 {
+    .big-card {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      img {
+      }
+      .content-container {
+        flex-grow: 1;
+        background-color: $color-card;
+        padding: 2rem 1.25rem;
+        .text-small-1 {
+          font-size: 0.75rem;
+        }
+        .text-big {
+          margin-bottom: 11.5rem;
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+        .text-small-2 {
+          font-size: 0.75rem;
+        }
+      }
+    }
+    .row-2 {
+      padding-left: 3rem;
+      .small-card {
+        img {
+        }
+        .content-container-small {
+          background-color: $color-card;
+          padding: 0.85rem 1.25rem;
+          .text-small {
+            font-size: 0.75rem;
+          }
+          .text-big {
+            margin-bottom: 2rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

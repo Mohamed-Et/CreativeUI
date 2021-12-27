@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pushster&display=swap");
+.navbar {
+  align-items: flex-end;
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: white;
+}
+.navbar .navbar-collapse {
+  justify-content: space-between;
+}
+.navbar .navbar-collapse .navbar-nav li {
+  margin: 0 1.15em;
+}
+.navbar .navbar-collapse .navbar-nav li a {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 300;
+  display: inline-block;
+}
+.navbar .navbar-collapse .navbar-nav li a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+.navbar .navbar-collapse .navbar-nav li a:hover::after {
+  width: 80%;
+  background: #ff4820;
+  transform-origin: 0% 50%;
+}
+.navbar .navbar-collapse .log-container {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-collapse .log-container p {
+  color: white;
+  margin: 0 1.15rem 0 0;
+}/*# sourceMappingURL=navbar.css.map */

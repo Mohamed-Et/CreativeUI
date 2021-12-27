@@ -1,0 +1,22 @@
+@use '../../sass/partials/variables' as *;
+
+.row-cta {
+  margin: 8rem 0;
+  background: $gradient-bar;
+  border-radius: 1rem;
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  p {
+    margin: 0;
+  }
+  .first-col {
+    
+    .sub {
+      font-size: 0.95rem;
+      letter-spacing: 3px;
+    }
+  }
+  .second-col {
+    text-align: end;
+  }
+}

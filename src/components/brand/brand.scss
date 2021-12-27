@@ -1,0 +1,15 @@
+@use '../../sass/partials/mixins' as *;
+.brand-container {
+  margin: 6rem 0;
+  .row {
+    justify-content: center;
+    .img-container {
+      width: auto;
+      margin: 0 0.75rem;
+      img {
+        height: 1.5rem;
+        width: 100%;
+      }
+    }
+  }
+}

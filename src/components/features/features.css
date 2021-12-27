@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pushster&display=swap");
+.container-possibility .row-features {
+  align-items: center;
+  justify-content: center;
+}
+.container-possibility .row-features .first-col {
+  position: relative;
+}
+.container-possibility .row-features .first-col .main {
+  padding-left: 8rem;
+  bottom: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+.container-possibility .row-features .first-col .rectangle {
+  position: absolute;
+  z-index: 1;
+  bottom: 1.5rem;
+  left: 4rem;
+}
+.container-possibility .row-features .first-col button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 7.5%;
+  right: 11.5%;
+}
+.container-possibility .row-features .first-col button .icon-1 {
+  font-size: 2rem;
+  margin-right: 0.6rem;
+}
+.container-possibility .row-features .first-col .icon-div {
+  top: 0%;
+  left: 15%;
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 20%;
+  background-color: #042c54;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-possibility .row-features .first-col .icon-div .icon-2 {
+  font-size: 2rem;
+  color: white;
+}
+.container-possibility .row-features p {
+  margin: 0;
+}
+.container-possibility .row-features .heading {
+  font-size: 2.25rem;
+}
+.container-possibility .row-features .text {
+  margin: 1.25rem 0;
+  line-height: 2rem;
+}
+.container-possibility .row-features .subtext-2 {
+  margin-bottom: 0.5rem;
+}
+.container-possibility .row-features .subtext-1 {
+  margin-top: 1rem;
+}/*# sourceMappingURL=features.css.map */

@@ -1,0 +1,70 @@
+@mixin gradient-bgc {
+  background: -moz-radial-gradient(circle at 3% 25%, #002853 0%, #040c18 100%);
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+}
+
+@mixin gradient-bg-reverse {
+  background: -moz-radial-gradient(circle at 25% 3%, #040c18 0%, #002853 100%);
+  background: -webkit-radial-gradient(
+    circle at 25% 3%,
+    #040c18 0%,
+    #002853 100%
+  );
+  background: -o-radial-gradient(circle at 25% 3%, #040c18 0%, #002853 100%);
+  background: -ms-radial-gradient(circle at 25% 3%, #040c18 0%, #002853 100%);
+  background: radial-gradient(circle at 25% 3%, #040c18 0%, #002853 100%);
+}
+
+@mixin gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin section__padding {
+  padding: 4rem 6rem;
+  @media screen and (max-width: 700px) {
+    .section__padding {
+      padding: 4rem;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .section__padding {
+      padding: 4rem 2rem;
+    }
+  }
+}
+
+@mixin section__margin {
+  margin: 4rem 6rem;
+  @media screen and (max-width: 700px) {
+    .section__margin {
+      margin: 4rem;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .section__margin {
+      margin: 4rem 2rem;
+    }
+  }
+}
